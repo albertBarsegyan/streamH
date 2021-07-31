@@ -21,7 +21,10 @@
     "homepage": "https://github.com/KarapetyanSatenik/streamH#readme",
     "dependencies": {
         "express": "^4.17.1",
-        "minimist": "^1.2.5",
+        "minimist": "^1.2.5"
+    },
+    "devDependencies": {
+        "install": "^0.13.0",
         "nodemon": "^2.0.12"
     }
 }

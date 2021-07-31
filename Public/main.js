@@ -1,8 +1,8 @@
 const but = document.querySelector('.content-button');
 console.log(but);
-
+//post request
 but.addEventListener('click', () => {
-    fetch('/persons/newPerson', {
+    fetch('/users/newUser', {
         method: 'post',
         headers: {
             "content-type": "application/json"
@@ -15,4 +15,14 @@ but.addEventListener('click', () => {
         })
     })
 
+})
+
+fetch('/users/delete', {
+    method: 'delete',
+    headers: {
+        "content-type": "application/json"
+    },
+    body: JSON.stringify({
+        id: 8
+    })
 })
