@@ -2,3 +2,5 @@ node_modules
 idx.js
 mem.js
 stream.js
+.vscode
+
